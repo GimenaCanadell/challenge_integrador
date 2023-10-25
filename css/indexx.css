@@ -33,7 +33,7 @@ ul li{
 }
 
 .hero__container{
-    background-image: url(funkos-banner.webp);
+    background-image: url(../img/funkos-banner.webp);
 	display: flex;
 	height: calc(100vh - 70px);
 	align-items:center;
