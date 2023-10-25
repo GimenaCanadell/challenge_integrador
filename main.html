@@ -8,8 +8,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <title>FunkoShop</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
         <link rel="shortcut icon" href="img/icons/mainIcon.png"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+        <link rel="stylesheet" type="text/css" href="css/carouselStyle.css">
     </head>
     <body>
         <div class="fondo">
@@ -43,8 +52,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <div class="firstFunko">
             <div id="textFirstFunko">
                 <article id="articleFirstFunko">
-                    <h3>STAR WARS &</h3>
-                    <h3>THE MANDALORIAN</h3>
+                    <h2>STAR WARS &</h2>
+                    <h2>THE MANDALORIAN</h2>
                     <p id="parrafoFirstFunko">Disfruta de una saga que sigue</p>
                     <p id="parrafoFirstFunko">agregando personajes a tu colección</p>
                     <hr id="hr">
@@ -94,6 +103,164 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     />
             </div>
         </div>
+        <!-- CARRUSEL-->
+        <div class="container">
+            <!--div class="row"-->
+                <div class="col-md-12">
+                    <h2 id="h2Car">ÚLTIMOS <b>LANZAMIENTOS</b></h2>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>   
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/star-wars/trooper-1.webp" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h3>STAR WARS</h3>
+                                                <h4>STORMTROOPER LIGHT</h4>
+                                                
+                                                <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/pokemon/pidgeotto-1.webp" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h3>POKEMON</h3>
+                                                <h4>PIDGEOTTO</h4>
+                                                <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>						
+                                        </div>
+                                    </div>		
+                                    <div class="col-sm-4">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/harry-potter/luna-1.webp" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h3>HARRY POTTER</h3>
+                                                <h4>LUNA LOVEGOOD LION MASK</h4>
+                                                <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>						
+                                        </div>
+                                    </div>								
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/star-wars/luke-1.webp" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h3>STAR WARS</h3>
+                                                <h4>LUKE</h4>
+                                                <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/pokemon/pikachu-1.webp" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h3>POKEMON</h3>
+                                                <h4>PIKACHU</h4>
+                                                <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/harry-potter/hermione-1.webp" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h3>HARRY POTTER</h3>
+                                                <h4>HERMIONE</h4>
+                                                <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>						
+                                        </div>
+                                    </div>						
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/star-wars/bobbafeth-1.webp" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h3>STAR WARS</h3>
+                                                <h4>BOBBAFETH</h4>
+                                                <p class="item-price"><strike>$369.00</strike> <span>$349.00</span></p>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/pokemon/charmander-1.webp" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h3>POKEMON</h3>
+                                                <h4>CHARMANDER</h4>
+                                                <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="img/harry-potter/harry-1.webp" class="img-responsive img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h3>HARRY POTTER</h3>
+                                                <h4>HARRY</h4>
+                                                <p class="item-price"><strike>$450.00</strike> <span>$418.00</span></p>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>						
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        <!--/div-->
+        <!-- END CARRUSEL-->
+
         <footer id="footer">
             <div id="divMenuFoo">
                 <a id="aFoo" href="./pages/shop.html">SHOP</a>
